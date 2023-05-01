@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width:
+0px) and (max-width:320px) {
+    body{ 
+        background-color: rgb(238, 165, 69);  
+    }    
+}
+@media screen and (min-width:
+481px) and (max-width:768px) {
+    body{ 
+        background-color: rgb(122, 163, 9);  
+    }    
+}
+@media screen and (min-width:
+769px) and (max-width:1024px) {
+    body{ 
+        background-color: rgb(241, 52, 52);  
+    }    
+}
+#logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 45px;
+    width: 90px;
+    padding-right: 10px;
+    padding-left: 13px;
+}
+ul{
+    list-style-type: none;
+    background-color: #02556e;
+    overflow: hidden;
+    padding: 8px;
+}
+li{float: left;}
+li a{
+    display: block;
+    color: #4addd1;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 600;
+    font-variant: small-caps;
+    padding-left: 40px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 12px;
+}
+li a:hover{
+    background-color: #0c7757;
+    background-position: center;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,
+    #680b6b 0%,
+    #ad44bb 20%,
+    #3871bb 40%,
+    #b16ce9 60%,
+    #9e6aa0 80%
+     );
+     background-size: 200% 200%;
+     background-repeat: no-repeat;
+}
+.foto{
+    padding-top: 15px;
+    max-width: 150%;
+    max-height: 150%;
+    height: 250px;
+    width: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.fondo{
+    background-color: #98f0e4;
+    border-radius: 10px;
+    margin: 50px;
+    cursor: default;
+    transition: all 400ms ease;
+}
+.fondo:hover{
+    transform: translateY(-3%);
+    opacity: 0.7;
+}
+h1{
+    color: #10096d;
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 40px;
+    padding-top: 40px
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+    color: #10096d;
+    padding-right: 150px;
+    padding-left:  150px;
+    text-align: justify;
+}
+.boton{
+    align-items: justify;
+    margin-right: 100px;
+    margin-left: 150px;
+    justify-content: justify;
+    height: 25px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #27f843;
+}
+dl{
+    font-size: 20px;
+    font-family: cursive;
+    color: #10096d;
+}
+dt{
+    font-size: 22px;
+}
+.adicional{
+    color: #4addd1;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 100px;
+    padding-left: 50px;
+}
+
